@@ -17,7 +17,7 @@ namespace Snake
         {
         }
 
-        public point(int _x, int _y, char _sym)// создали конструктордля точки
+        public point(int _x, int _y, char _sym)// создали конструктор для точки
             //он будет рисовать точку каждый разс заданными пр-ми при вызове Draw point
         {
             x = _x;
