@@ -12,6 +12,19 @@ namespace Snake
         public int x, y;//объединили наши переменные в класс, что бы сократить код
         public char sym;//теперь вызовем этот класс в классе Program
 
+
+        public point()// КОНСТРУКТОР
+        {
+        }
+
+        public point(int _x, int _y, char _sym)// создали конструктордля точки
+            //он будет рисовать точку каждый разс заданными пр-ми при вызове Draw point
+        {
+            x = _x;
+            y = _y;
+            sym = _sym;
+        }
+
         public void Draw()//после метода или ф-ии ; НЕ СТАВИМ
         {
             Console.SetCursorPosition(x, y);//указали координаты где выводить точку
